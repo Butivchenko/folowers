@@ -120,7 +120,7 @@ if (isset($_POST['btnPayment'])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Basic Page Needs    ================================================== -->
+    <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]>
     <meta http-equiv="x-ua-compatible" content="IE=9"/><![endif]-->
@@ -146,7 +146,7 @@ if (isset($_POST['btnPayment'])) {
     <link rel="stylesheet" type="text/css"
           href="<?php bloginfo('template_url'); ?>/assets/fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/fonts/fonts/fonts.css">
-    <!-- Stylesheet    ================================================== -->
+    <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/responsive.css">
@@ -227,7 +227,7 @@ if (isset($_POST['btnPayment'])) {
     </div>
 </div>
 <div id="reviews">
-    <div class="container"> <!-- Container -->
+    <div class="container">
         <div class="section-title text-center center">
             <?php
             $qryreview = array('page_id' => 42);
@@ -272,7 +272,7 @@ if (isset($_POST['btnPayment'])) {
         <div class="clearfix"></div>
     </div>
 </div>
-<!-- Contact Section    ==========================================-->
+<!-- Contact Section -->
 <div id="footer2">
     <div class="container">
         <div class="pull-left fnav">
